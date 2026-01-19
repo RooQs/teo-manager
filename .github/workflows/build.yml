@@ -40,4 +40,4 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name == 'push' }}
-          tags: ghcr.io/rooqs/teo-manager:latest
+          tags: ghcr.io/RooQs/teo-manager:latest
