@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "24"
 
       - name: Install dependencies
         run: npm ci
@@ -40,4 +40,4 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name == 'push' }}
-          tags: ghcr.io/RooQs/teo-manager:latest
+          tags: ghcr.io/rooqs/teo-manager:latest
