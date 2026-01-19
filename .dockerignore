@@ -3,7 +3,6 @@ node_modules/
 *.npmrc
 
 # Build outputs
-dist/
 build/
 
 # Environment files
