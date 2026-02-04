@@ -16,7 +16,7 @@
     "@types/node": "^20.11.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
-    "@nestjs/schematics": "^11.0.16",
+    "@nestjs/schematics": "^11.0.0",
     "@nestjs/testing": "^11.1.12"
   },
   "dependencies": {
