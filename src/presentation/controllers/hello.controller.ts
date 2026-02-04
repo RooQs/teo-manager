@@ -1,9 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Req, Request } from "@nestjs/common";
 
 @Controller()
 export class HelloController {
   @Get()
-  getHello(): string {
-    return 'helloworld';
+  getHello(@Req() request: Request): Headers {
+    return request.headers;
   }
 }
